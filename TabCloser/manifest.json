@@ -1,18 +1,21 @@
 {
   "manifest_version": 2,
-
+  "author": "Roshan Dash",
   "name": "TabCloser",
   "description": "Helps in Closing Tabs using Right Click!",
   "version": "0.0.0.1",
   "icons":{"16":"icon.png", "48":"icon.png", "128":"icon.png" },
   "background": {
-    "scripts" : ["background.js"] 
+    "scripts" : ["background.js"] ,
+    "persistent": true
   },
   "browser_action": {
    "default_icon": {"19":"icon.png", "38":"icon.png"},
    "default_title": "TabCloser"
   },
   "permissions": [
-   "activeTab", "tabs", "http://*/*", "https://*/*", "contextMenus" 
-   ]
+   "activeTab", "contextMenus" 
+    // "tabs", "http://*/*", "https://*/*",
+   ],
+  "offline_enabled": true
 }
