@@ -1,7 +1,10 @@
 # TabCloser
-Fatigued by having to move the cursor to the top of the page to close the current tab? 
+Fatigued by having to move the cursor to the top of the page to close the current tab?
+
 Scared that other tabs might also get closed?
-Too difficult to select the small close button 
+
+Too difficult to select the small close button? 
+
 ### Here is the solution to all your problems!
 This chrome extension will give you right click capability to close the current tab!
 
