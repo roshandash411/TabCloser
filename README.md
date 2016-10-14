@@ -10,7 +10,7 @@ This chrome extension will give you right click capability to close the current 
 
 ### How to install this extension?
 ##### 1. Download the TabCloser folder.
-##### 2. Type chrome://extensions/ in the adress bar.
+##### 2. Type "chrome://extensions/" in the adress bar excluding the quotes.
 ##### 3. Enable Developer mode.
 ##### 4. Load Unpacked Extension.
 ##### 5. Select the folder containg all the files.
